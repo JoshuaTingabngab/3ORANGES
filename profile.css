@@ -1,74 +1,99 @@
+
+/*HOREZONTAL NAVBAR*/
+
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: green;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: green;
+
 }
 
-body{
-  background-color: darkcyan;
+
+body {
+	background-color: darkcyan;
+
 }
+
 
 li {
- float: left;
+	float: left;
 }
 
 li a {
-  text-decoration: none;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 61px;
+	text-decoration: none;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 61px;
 }
 
+li a:hover{
+	background-color: gray;
+
+}
 .active {
-  background-color: black;
-}
-.vertical {
-  margin-top: 20px;
-  width: 14%
-
-}
-.vertical a {
-  background-color: green;
-  color: white;
-  display: block;
-  padding: 10px;
-  text-decoration: none;
-  text-align: center;
-  
+	background-color: black;
 }
 
-.vertical a:hover {
-  background-color: gray;
+
+/*VERTICAL NAVBAR*/
+
+.vertical{
+	margin-top: 20px;
+	width: 14%;
 }
 
-.vertical a.active {
-  background-color: black;
+.vertical a{
+	background-color: green;
+	color: white;
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	text-align: center;
 }
 
-h1{
-  text-align: center;
-  margin-top: 230px;
+.vertical a:hover{
+	background-color: gray;
+
 }
 
-.font {
-  text-align: center;
-  top: 1%;
-  margin-top: 1px;
+.vertical a.active{
+	background-color: black;
+
 }
 
-.h3 {
-  text-align: center;
-  margin-top: 230px;
+
+/*FONT ADJUSTMENT*/
+
+
+h1 {
+
+	margin-top: 70px;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 20px;
+	color: white;
 }
 
-img{
-  position: absolute;
-  top: 0px;
-  margin-top: 70px;
-  width: 350px;
-  margin-left 580px;
-  border: solid;
+b {
+  color: black;
 }
+
+
+/*IMAGE ADJUSTMENT*/
+
+img {
+	position: absolute;
+	top: 0px;
+	margin-top: 75px;
+	width: 220px;
+	margin-left: 565px;
+	border: solid;
+}
+
+
+
+
+
